@@ -1,0 +1,47 @@
+.sidebar {
+    width: 18.5%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 16px 32px;
+}
+
+.sidebar__logo-img {
+    width: 132px;
+}
+
+.sidebar-item.active{
+    color: var(--white-color);
+    background-color: #FFB800;
+}
+
+.sidebar__list {
+    padding-top: 48px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.sidebar__list-item {
+    color: var(--text-color);
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    background-color: #ffe08b;
+    color: var(--text-color);
+}
+
+.sidebar__list-item-setting-icon,
+.sidebar__list-item-list-icon,
+.sidebar__list-item-ticket-icon,
+.sidebar__list-item-home-icon {
+    margin-left: 26px;
+    margin-right: 20px;
+}
